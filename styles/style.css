@@ -55,3 +55,74 @@ header{
     cursor: pointer;
     width: 40px;
 }
+
+main{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: 1.5em;
+}
+
+main section{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.logotheboys{
+    width: 35em;
+    margin: 3em 0;
+}
+
+.btn-box{
+    /*display: flex;*/
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.btn{
+    padding: 20px 45px;
+    background: #425265;
+    color: #fff;
+    margin-bottom: 2em;
+    border: none;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+}
+
+.btn:hover{
+    background: #2d3846;
+}
+
+.text{
+    color: #fff;
+    line-height: 20px;
+}
+
+.btn-box2{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #0f79af;
+    padding: 15px 45px;
+    margin-top: 2em;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 4px solid #fff;
+    font-size: 25px;
+    gap: 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn-box2:hover{
+    background-color: #138ecc;
+}
+
+.play{
+    filter: invert(1);
+    width: 1.4em;
+}
